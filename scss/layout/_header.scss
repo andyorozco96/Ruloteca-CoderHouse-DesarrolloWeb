@@ -1,0 +1,206 @@
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 1em 5%;
+
+    .brand{
+        display: flex;
+        align-items: center;
+        color: $clr-accent-500;    
+        gap: 0.5em;
+        font-weight: 600;
+
+        & img{
+            display: flex;
+            height: 1.5em;
+        }
+    }
+
+    .brand:hover{
+        color: $clr-accent-600;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+
+/* MI PRIMER MENU HAMBURGUESA HECHO CON ANNIMACIONES*/
+        .menu--sm{
+
+            & label{
+                display: flex;
+                align-items: center;
+            }
+
+            .iconify{
+                font-size: 22px;
+            }
+
+            .iconify:hover{
+                color: $clr-darken-600;
+                font-size: 26px;
+            }
+
+            &--active{
+                #btn-menu{
+                    display: none;
+                }
+
+                .container-menu-sm{
+                    width: 40vw;
+                    float: right;
+                    position: absolute;
+                    right: 0;
+                    top:50px;
+                    background-color: $clr-accent-500;
+                    transition: all 500ms ease;
+                    opacity: 0;
+                    visibility: hidden;
+
+                    .cont-menu-sm{
+                        width: 100%;
+                        max-width: 250px;
+                        height: 400px;
+                        position: relative;
+                        transition: all 500ms ease;
+                        background-color: $clr-accent-500;
+
+                        & ul li{
+                            display: block;
+                            padding: 1em;
+                            color: rgb(255, 255, 255);
+                            border-left: 5px solid transparent;
+                            transition: all 400ms ease;
+                            }
+    
+                        & ul li:hover{
+                            display: block;
+                            padding: 1em;
+                            color: rgb(255, 255, 255);
+                            border-right: 5px solid $clr-accent-600;
+                            transition: all 400ms ease;
+                            background-color: $clr-accent-400;
+                            font-weight: 600;
+                            }
+                        & label{
+                            position:absolute;
+                            bottom: 0;
+                            left: 10px;
+                            color: $clr-accent-000;
+                            font-size: 2em;
+                        }
+    
+                        & label:hover{
+                            color: $clr-accent-600;
+                        }
+                        
+                        
+                    }
+                }
+    
+                #btn-menu:checked ~ .container-menu-sm{
+                    opacity: 1;
+                    visibility: visible;
+                    }    
+            }
+        }
+
+        .menu--md{
+            display:none;
+        }
+    }
+}
+
+    @media only screen and (min-width:642px){
+        header{
+            nav{
+                .menu--sm{
+                display: none;
+                }
+
+                .menu--md{
+                display:flex;
+                align-items: center;
+                gap: 1em;
+                font-size: 13px;
+
+                    & li{
+                        color: $clr-accent-500;
+                    }
+
+                    & li:hover{
+                        color: $clr-accent-600;
+                        transform: translateY(-3px);        
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width:768px){
+        header{
+
+            .brand{
+                gap: 0.5em;
+                font-weight: 600;
+                font-size: 18px;
+        
+                & img{
+                    height: 1.5em;
+                }
+            }
+
+
+            nav{
+                .menu--md{
+                gap: 1em;
+                font-size: 14px;
+
+                    & li{
+                        color: $clr-accent-500;
+                    }
+
+                    & li:hover{
+                        color: $clr-accent-600;
+                        transform: translateY(-3px);        
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media only screen and (min-width:992px){
+        header{
+            padding: 1em 8%;
+
+            .brand{
+                gap: 0.5em;
+                font-weight: 600;
+                font-size: 20px;
+        
+                & img{
+                    height: 1.5em;
+                }
+            }
+
+
+            nav{
+                .menu--md{
+                gap: 1em;
+                font-size: 16px;
+
+                    & li{
+                        color: $clr-accent-500;
+                    }
+
+                    & li:hover{
+                        color: $clr-accent-600;
+                        transform: translateY(-3px);        
+                    }
+                }
+            }
+        }
+    }

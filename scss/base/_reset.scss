@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: inherit;
+	list-style: none;
+}
+
+
+
+
+.visuallyhidden {
+	position: absolute;
+	margin: -1px;
+	height: 1px;
+	width: 1px;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+
+// SACANDO ESTILOS A BOOTSTRAP
+
+.card{
+	border: none;
+	position: static;
+}
+a{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: inherit;
+	list-style: none;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+	padding-left: 0;
+}
+
+.row{
+	margin: 0;
+}
+
+

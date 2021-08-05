@@ -1,0 +1,125 @@
+footer{
+    display: grid;
+        grid-template-columns: 25% 25% 50%;
+        grid-template-rows: 30% 50% 25%;
+        grid-template-areas:"mapsite mapsite newsletter"
+                            "mapsite mapsite newsletter"
+                            "links3 links3 links3";
+    justify-content: center;
+    padding: 2em;
+    width: 100vw;
+    background-color: $clr-accent-500;
+
+    .mapsite{
+        grid-area: mapsite;
+        gap: 1em;
+
+        .brand{
+            font-weight: 600;
+            display: flex;
+            align-self: center;
+            gap: 0.5em;
+            font-size: 18px;
+            color: $clr-accent-000;
+        
+            & span{
+                display: flex;
+                align-self: center;
+
+                img{
+                    height: 1.2em;
+                    width: auto;
+                }
+            }  
+        }  
+
+        .brand:hover{
+            color: $clr-accent-600;
+        }
+
+        .mapsite__links{
+            margin-top: 1em;
+            margin-bottom: 1em;
+
+            .mapsite__list{
+                display: flex;
+                flex-direction:column;
+                color: $clr-accent-000;
+                gap: 0.3em;
+                font-weight: 200;
+                font-size: 14px
+            }
+        }
+
+        li:hover{
+            color: $clr-accent-400;
+            transform: translateX(3px);
+            font-weight: 400;
+        }
+    }
+
+    .newsletter{
+        grid-area: newsletter;
+        display: flex;
+        flex-flow: column;
+        gap: 0.5em;
+
+        & h3{
+            color: $clr-accent-000;
+            font-size: 22px;
+            text-align: left;
+        }
+
+        & form{
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 0.5em;
+
+            & input{
+                padding:0.5em;
+            }
+            & label{
+                display: none;
+            }
+        }
+    }
+
+    .copyright{
+        margin-top: 1em;
+        padding: 1em;
+        border-top: 1px solid $clr-accent-100;
+        grid-area: links3;
+
+        & ul{
+            color: $clr-accent-000;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            flex-flow: row nowrap;
+            font-size: 12px;
+            gap: 2em;
+        }
+
+        & li:hover{
+        color: $clr-accent-400;
+        transform: translateY(-3px);
+        font-weight: 400;
+        }
+    }
+
+    @media only screen and (min-width:768px){
+        padding: 2em 13%;
+
+    }
+
+    @media only screen and (min-width:992px){
+        padding: 2em 15%;
+
+    }
+
+    @media only screen and (min-width:1200px){
+        padding: 2em 20%;
+
+    }
+
+}
