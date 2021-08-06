@@ -1389,4 +1389,187 @@ footer .copyright li:hover {
   color: #252525;
   text-align: justify;
 }
+
+.banner-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../../assets/img/gallery/banner-img-gallery-01.jpg) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  text-align: center;
+}
+
+.banner-section span {
+  font-size: 2em;
+  color: #fdfcfc;
+  text-transform: uppercase;
+  font-weight: 300;
+  background: #d8697b;
+  padding: 5px 25px;
+}
+
+.heading {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 2em;
+}
+
+.heading h1 {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #252525;
+  text-align: center;
+}
+
+.heading h1 span {
+  color: #adb3e9;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2em;
+}
+
+.flex-container .column-gallery {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5em;
+}
+
+.flex-container .column-gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom: .5em;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+}
+
+.flex-container .column-gallery img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media only screen and (min-width: 641px) {
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .flex-container .column-gallery {
+    width: 32.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 /*# sourceMappingURL=main.css.map */

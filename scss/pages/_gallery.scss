@@ -1,0 +1,84 @@
+.banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets/img/gallery/banner-img-gallery-01.jpg) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+
+    span {
+        font-size: 2em;
+        color: $clr-accent-000;
+        text-transform: uppercase;
+        font-weight: 300;
+        background: $clr-darken-600;
+        padding: 5px 25px;
+    }
+}
+
+.heading{
+
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2em;
+   
+    h1{
+        font-size: 1.5em;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $clr-accent-500; 
+        text-align: center;
+
+        span {
+            color: $clr-accent-400;
+        }
+    }
+
+
+}
+
+.flex-container{
+    @include block-container-sm;
+    padding-top: 2em;
+
+    .column-gallery{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        gap: 0.5em;
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: .5em;
+            transition: .6s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+
+        }
+    }
+
+    @media only screen and (min-width:641px){
+        @include flex-container-sm;
+
+        .column-gallery{
+            width: 32.5%;
+            display:flex;
+            flex-direction: column;
+        }
+    }
+
+    @media only screen and (min-width:768px){
+        @include flex-container-m;
+    }
+    @media only screen and (min-width:992px){
+        @include flex-container-lg;
+    }
+    @media only screen and (min-width:1200px){
+        @include flex-container-xl;
+    }
+}   
