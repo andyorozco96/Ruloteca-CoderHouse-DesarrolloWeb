@@ -1257,7 +1257,7 @@ footer .copyright li:hover {
 
 .contact-us .container-contact .contact-box .left {
   height: 100%;
-  background: url(../../assets/img/contac-us/contact-us-bg.png) no-repeat center;
+  background: url(/repository/assets/img/contac-us/contact-us-bg.png) no-repeat center;
   background-size: cover;
 }
 
@@ -1345,5 +1345,48 @@ footer .copyright li:hover {
   z-index: -1;
   -webkit-filter: blur(50px);
           filter: blur(50px);
+}
+
+.about-us {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #adb3e9;
+}
+
+.about-us .about-us-section {
+  background: url(/repository/assets/img/contac-us/contact-us-bg.png) no-repeat center;
+  background-size: cover;
+  background-color: #adb3e9;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.about-us .about-us-section .container-about {
+  width: 55%;
+  float: right;
+  background-color: #fdfcfc;
+  padding: 150px;
+}
+
+.about-us .about-us-section .container-about h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.about-us .about-us-section .container-about .text-about {
+  font-size: 13px;
+  line-height: 30px;
+  color: #252525;
+  text-align: justify;
 }
 /*# sourceMappingURL=main.css.map */
