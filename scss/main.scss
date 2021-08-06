@@ -1,6 +1,5 @@
 @import "./base/reset", "./base/variables","./base/mixin","./components/fonts","./components/buttons", "./layout/header", "./layout/footer", "./pages/index";
 
-// PAGES HTML
+@import "../scss/pages/contact-us"
 
-@import "./pages/contact-us"
 
