@@ -2,7 +2,8 @@
 .contact-us{
     width: 100%;
     height: 100vh;
-    .containter-contact{
+
+    .container-contact{
         position: relative;
         display: flex;
         justify-content: center;
@@ -11,7 +12,95 @@
         height: 100%;
         padding: 20px 100px;
 
-    .containter-contact:after{
+        .contact-box{
+            max-width: 850px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: #fff;
+            box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+
+            .left  {
+                height: 100%;
+                background: url(../../assets/img/contac-us/contact-us-bg.png) no-repeat center ;
+                background-size: cover;
+            }
+
+            .right  {
+                padding: 25px 40px;
+
+                h2{
+                    position:relative;
+                    padding-bottom:10px;
+                    margin-bottom: 10px;
+                }
+
+                h2:after{
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    height: 4px;
+                    width: 50px;
+                    border-radius: 2px;
+                    background-color: $clr-accent-400;
+                }
+
+                .field{
+                    width: 100%;
+                    padding: 0.5rem 1rem;
+                    outline: none;
+                    border: 2px solid rgba(0, 0, 0, 0);
+                    background-color: rgba(230, 230, 230, 0.6);
+                    font-size: 1.1rem;
+                    margin-bottom: 22px;
+                    transition: 0,3s;
+                }
+
+                .field:hover{
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+
+                .field:focus{
+                    background-color:#fff;
+                    border: 2px solid rgba(30, 85, 250, 0.47);
+                }
+
+                .area{
+                    min-height: 150px;
+                }
+
+                .btn-contact{
+                    width: 100%;
+                    padding: 0.5rem 1rem;
+                    font-size: 1.1rem;
+                    background-color: $clr-accent-400;
+                    color: $clr-accent-000;
+                    cursor: pointer;
+                    transition: 0.3s;
+                }
+
+                .btn-contact:hover{
+                    background-color: $clr-darken-400;
+                }
+
+            }
+        }
+
+        @media screen and (max-width:641px){
+            .contact-box{
+                grid-template-columns: 1fr;
+        
+                .left{
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .container-contact:after{
         content: '';
         position: absolute;
         left: 0;
@@ -21,11 +110,7 @@
         background: url(../../assets/img/contac-us/contact-us-bg.png) no-repeat center ;
         background-size: cover;
         z-index: -1;
-
-        .container-contact h2{
-            color: red;
+        filter: blur(50px);
         }
-
-    }
-    }
 }
+
