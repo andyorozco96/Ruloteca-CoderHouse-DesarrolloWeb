@@ -74,11 +74,14 @@
 
     @media only screen and (min-width:768px){
         @include flex-container-m;
+        padding-top: 1.8em;
     }
     @media only screen and (min-width:992px){
         @include flex-container-lg;
+        padding-top: 1.7em;
     }
     @media only screen and (min-width:1200px){
         @include flex-container-xl;
+        padding-top: 1.5em;
     }
 }   
