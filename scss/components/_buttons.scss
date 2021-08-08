@@ -38,3 +38,21 @@
     }
 }
 
+
+.field{
+    width: 100%;
+    padding:.5em;
+    margin-bottom: .7em;
+    border-radius: 5px;
+    border: none;
+
+    &:focus{
+        outline: none !important;
+        border: 2px solid $clr-darken-600;
+    }
+
+
+}
+
+
+
