@@ -1259,7 +1259,7 @@ footer .copyright li:hover {
   width: 100%;
   height: 250px;
   padding: 0;
-  background: url(/repository/assets/img/contac-us/contact-us-bg.png) no-repeat center;
+  background: url(../../assets/img/contac-us/contact-us-bg.png) no-repeat center;
   background-size: cover;
 }
 
@@ -1380,7 +1380,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/repository/assets/img/about-us/about-us-01.jpg) no-repeat center;
+  background: url(../../assets/img/about-us/about-us-01.jpg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
@@ -1457,7 +1457,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/repository/assets/img/about-us/about-us-02.jpg) no-repeat center;
+  background: url(../../assets/img/about-us/about-us-02.jpg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
@@ -1533,7 +1533,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/repository/assets/img/about-us/about-us-03.jpeg) no-repeat center;
+  background: url(../../assets/img/about-us/about-us-03.jpeg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
@@ -1609,7 +1609,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/repository/assets/img/about-us/about-us-04.jpeg) no-repeat center;
+  background: url(../../assets/img/about-us/about-us-04.jpeg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
@@ -1892,7 +1892,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/repository/assets/img/gallery/banner-img-gallery-01.jpg) no-repeat center;
+  background: url(../../assets/img/gallery/banner-img-gallery-01.jpg) no-repeat center;
   background-size: cover;
   width: 100vw;
   height: 80vh;
