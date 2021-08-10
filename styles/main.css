@@ -318,7 +318,9 @@ footer {
       grid-template-columns: 25% 25% 50%;
   -ms-grid-rows: 30% 50% 25%;
       grid-template-rows: 30% 50% 25%;
-      grid-template-areas: "mapsite mapsite newsletter" "mapsite mapsite newsletter" "links3 links3 links3";
+      grid-template-areas: "mapsite mapsite newsletter"
+ "mapsite mapsite newsletter"
+ "links3 links3 links3";
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1259,7 +1261,7 @@ footer .copyright li:hover {
   width: 100%;
   height: 250px;
   padding: 0;
-  background: url(../../assets/img/contac-us/contact-us-bg.png) no-repeat center;
+  background: url(../assets/img/contac-us/contact-us-bg.png) no-repeat center;
   background-size: cover;
 }
 
@@ -1457,7 +1459,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../../assets/img/about-us/about-us-02.jpg) no-repeat center;
+  background: url(../assets/img/about-us/about-us-02.jpg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
@@ -1533,7 +1535,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../../assets/img/about-us/about-us-03.jpeg) no-repeat center;
+  background: url(../assets/img/about-us/about-us-03.jpeg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
@@ -1609,7 +1611,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../../assets/img/about-us/about-us-04.jpeg) no-repeat center;
+  background: url(../assets/img/about-us/about-us-04.jpeg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
