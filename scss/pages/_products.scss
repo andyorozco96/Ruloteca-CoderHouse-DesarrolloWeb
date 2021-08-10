@@ -152,6 +152,10 @@ main{
 
                     .text-container{
                         text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
                         
                         h3{ 
                             padding: 3em;
@@ -170,7 +174,24 @@ main{
                         }
 
                         .btn{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
                             margin-bottom: 5em;
+                            gap: 0.5em;
+                            font-size: 1em;
+                            width: 60%;
+
+                            @media only screen and (min-width:641px){
+                                width: 100%;
+                                font-size: 0.9em;
+                                
+                            }
+
+                            &__icon{
+                                font-size: 1.2em;
+                            }
                         }
                     }
                 }
