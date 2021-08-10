@@ -96,10 +96,21 @@ main{
             }
 
             .flex-container-products{
+                @include block-container-sm;
+
+                @media only screen and (min-width:641px){
+                    @include flex-container-sm;
+                }
+
+                @media only screen and (min-width:768px){
+                    @include flex-container-m;
+                }                     
+            
+                
+                
 
                 .block-container-product{
                     
-   
                     .img-container{
                         height: 50vh;
 
@@ -141,11 +152,15 @@ main{
 
                     .text-container{
                         text-align: center;
-                        h3{
+                        
+                        h3{ 
+                            padding: 3em;
                             font-size: 1em;
                             margin-top: 1.2em;
                             margin-bottom: 0.5em;
                             font-weight: 200;
+                            text-align: center;
+                            padding: 0 1.5em;
                         }
 
                         p{
