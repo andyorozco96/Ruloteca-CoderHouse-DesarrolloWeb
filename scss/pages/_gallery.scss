@@ -10,10 +10,10 @@
 
     span {
         font-size: 2em;
-        color: $clr-accent-000;
+        color: $clr-white;
         text-transform: uppercase;
         font-weight: 300;
-        background: $clr-accent-600;
+        background: $clr-main;
         padding: 5px 25px;
     }
 }
@@ -28,11 +28,11 @@
         font-size: 1.5em;
         font-weight: 300;
         text-transform: uppercase;
-        color: $clr-accent-500; 
+        color: $clr-dark; 
         text-align: center;
 
         span {
-            color: $clr-accent-400;
+            color: $clr-secondary;
         }
     }
 
@@ -54,12 +54,14 @@
             height: auto;
             margin-bottom: .5em;
             transition: .6s ease-in-out;
+
+            &:hover{
+                transform: scale(1.2);
+    
+            }
         }
 
-        img:hover {
-            transform: scale(1.2);
 
-        }
     }
 
     @media only screen and (min-width:641px){

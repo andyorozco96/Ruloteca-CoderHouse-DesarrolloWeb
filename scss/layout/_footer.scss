@@ -8,13 +8,13 @@ footer{
     justify-content: center;
     padding: 2em;
     width: 100vw;
-    background-color: $clr-accent-500;
+    background-color: $clr-dark;
 
     .mapsite{
         grid-area: mapsite;
         gap: 1em;
             padding-top:2em;
-            border-top: solid 1px $clr-accent-000;
+            border-top: solid 1px $clr-white;
 
 
         .brand{
@@ -23,9 +23,13 @@ footer{
             align-self: center;
             gap: 0.5em;
             font-size: 18px;
-            color: $clr-accent-000;
+            color: $clr-white;
+
+            &:hover{
+                color: $clr-main;
+            }
         
-            & span{
+            span{
                 display: flex;
                 align-self: center;
 
@@ -36,10 +40,6 @@ footer{
             }  
         }  
 
-        .brand:hover{
-            color: $clr-accent-600;
-        }
-
         .mapsite__links{
             margin-top: 1em;
             margin-bottom: 1em;
@@ -47,18 +47,19 @@ footer{
             .mapsite__list{
                 display: flex;
                 flex-direction:column;
-                color: $clr-accent-000;
+                color: $clr-white;
                 gap: 0.3em;
                 font-weight: 200;
-                font-size: 14px
+                font-size: 14px;
+
+                li:hover{
+                    color: $clr-secondary;
+                    transform: translateX(3px);
+                    font-weight: 400;
+                }
             }
         }
 
-        li:hover{
-            color: $clr-accent-400;
-            transform: translateX(3px);
-            font-weight: 400;
-        }
     }
 
     .newsletter{
@@ -67,24 +68,24 @@ footer{
         flex-flow: column;
         gap: 0.5em;
         padding-top:2em;
-        border-top: solid 1px $clr-accent-000;
+        border-top: solid 1px $clr-white;
 
 
-        & h3{
-            color: $clr-accent-000;
+        h3{
+            color: $clr-white;
             font-size: 22px;
             text-align: left;
         }
 
-        & form{
+        form{
             display: flex;
             flex-flow: column nowrap;
             gap: 0.5em;
 
-            & input{
+            input{
                 padding:0.5em;
             }
-            & label{
+            label{
                 display: none;
             }
         }
@@ -93,24 +94,28 @@ footer{
     .copyright{
         margin-top: 1em;
         padding: 1em;
-        border-top: 1px solid $clr-accent-100;
+        border-top: 1px solid $clr-white;
         grid-area: links3;
 
-        & ul{
-            color: $clr-accent-000;
+        ul{
+            color: $clr-white;
             display: flex;
             align-items: baseline;
             justify-content: center;
             flex-flow: row nowrap;
             font-size: 12px;
             gap: 2em;
+
+            li{
+                &:hover{
+                    color: $clr-secondary;
+                    transform: translateY(-3px);
+                    font-weight: 400;
+                    }
+            }
         }
 
-        & li:hover{
-        color: $clr-accent-400;
-        transform: translateY(-3px);
-        font-weight: 400;
-        }
+
     }
 
     @media only screen and (min-width:768px){

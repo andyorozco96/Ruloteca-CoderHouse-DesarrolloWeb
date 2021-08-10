@@ -18,7 +18,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: $clr-accent-500;
+        background-color: $clr-dark;
 
         label{
             display: none;
@@ -31,7 +31,7 @@
             text-transform: uppercase;
             padding-top: 0.7em;
             padding-bottom: 1em;
-            color: $clr-accent-000;
+            color: $clr-white;
         }
 
         textarea{
@@ -71,7 +71,7 @@
                 display: flex;
                 flex-direction: column;
                 width: 50%;
-                background: $clr-accent-500;
+                background: $clr-dark;
 
                 input{
                     width: 100%;

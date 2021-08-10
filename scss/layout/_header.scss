@@ -8,19 +8,21 @@ header{
     .brand{
         display: flex;
         align-items: center;
-        color: $clr-accent-500;    
+        color: $clr-dark;    
         gap: 0.5em;
         font-weight: 600;
 
-        & img{
+        &:hover{
+            color: $clr-main;
+        }
+
+        img{
             display: flex;
             height: 1.5em;
         }
     }
 
-    .brand:hover{
-        color: $clr-accent-600;
-    }
+
 
     nav{
         display: flex;
@@ -29,19 +31,21 @@ header{
 /* MI PRIMER MENU HAMBURGUESA HECHO CON ANNIMACIONES*/
         .menu--sm{
 
-            & label{
+            label{
                 display: flex;
                 align-items: center;
             }
 
             .iconify{
                 font-size: 22px;
+
+                &:hover{
+                    color: $clr-darken-main;
+                    font-size: 26px;
+                }
             }
 
-            .iconify:hover{
-                color: $clr-darken-600;
-                font-size: 26px;
-            }
+
 
             &--active{
                 #btn-menu{
@@ -54,7 +58,7 @@ header{
                     position: absolute;
                     right: 0;
                     top:50px;
-                    background-color: $clr-accent-500;
+                    background-color: $clr-dark;
                     transition: all 500ms ease;
                     opacity: 0;
                     visibility: hidden;
@@ -65,36 +69,40 @@ header{
                         height: 400px;
                         position: relative;
                         transition: all 500ms ease;
-                        background-color: $clr-accent-500;
+                        background-color: $clr-dark;
 
-                        & ul li{
+                        ul li{
                             display: block;
                             padding: 1em;
                             color: rgb(255, 255, 255);
                             border-left: 5px solid transparent;
                             transition: all 400ms ease;
+
+                            &:hover{
+                                display: block;
+                                padding: 1em;
+                                color: rgb(255, 255, 255);
+                                border-right: 5px solid $clr-main;
+                                transition: all 400ms ease;
+                                background-color: $clr-secondary;
+                                font-weight: 600;
+                                }
                             }
     
-                        & ul li:hover{
-                            display: block;
-                            padding: 1em;
-                            color: rgb(255, 255, 255);
-                            border-right: 5px solid $clr-accent-600;
-                            transition: all 400ms ease;
-                            background-color: $clr-accent-400;
-                            font-weight: 600;
-                            }
-                        & label{
+
+                        label{
                             position:absolute;
                             bottom: 0;
                             left: 10px;
-                            color: $clr-accent-000;
+                            color: $clr-white;
                             font-size: 2em;
+
+                            &:hover{
+                                color: $clr-main;
+                            }
                         }
     
-                        & label:hover{
-                            color: $clr-accent-600;
-                        }
+
                         
                         
                     }
@@ -126,14 +134,16 @@ header{
                 gap: 1em;
                 font-size: 13px;
 
-                    & li{
-                        color: $clr-accent-500;
+                    li{
+                        color: $clr-dark;
+
+                        &:hover{
+                            color: $clr-main;
+                            transform: translateY(-3px);        
+                        }
                     }
 
-                    & li:hover{
-                        color: $clr-accent-600;
-                        transform: translateY(-3px);        
-                    }
+
                 }
             }
         }
@@ -147,7 +157,7 @@ header{
                 font-weight: 600;
                 font-size: 18px;
         
-                & img{
+                img{
                     height: 1.5em;
                 }
             }
@@ -158,14 +168,16 @@ header{
                 gap: 1em;
                 font-size: 14px;
 
-                    & li{
-                        color: $clr-accent-500;
+                    li{
+                        color: $clr-white;
+
+                        &:hover{
+                            color: $clr-main;
+                            transform: translateY(-3px);        
+                        }
                     }
 
-                    & li:hover{
-                        color: $clr-accent-600;
-                        transform: translateY(-3px);        
-                    }
+
                 }
             }
         }
@@ -181,7 +193,7 @@ header{
                 font-weight: 600;
                 font-size: 20px;
         
-                & img{
+                img{
                     height: 1.5em;
                 }
             }
@@ -192,13 +204,13 @@ header{
                 gap: 1em;
                 font-size: 16px;
 
-                    & li{
-                        color: $clr-accent-500;
-                    }
+                    li{
+                        color: $clr-dark;
 
-                    & li:hover{
-                        color: $clr-accent-600;
-                        transform: translateY(-3px);        
+                        &:hover{
+                            color: $clr-main;
+                            transform: translateY(-3px);        
+                        }
                     }
                 }
             }

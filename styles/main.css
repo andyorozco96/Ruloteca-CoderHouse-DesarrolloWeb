@@ -82,16 +82,6 @@ dl, ol, ul {
   background-color: #666fbd;
 }
 
-.btn--dark {
-  background: #252525;
-  color: #ffffff;
-}
-
-.btn--light {
-  background: #f0f9ff;
-  color: #252525;
-}
-
 .field {
   width: 100%;
   padding: .5em;
@@ -131,15 +121,15 @@ header .brand {
   font-weight: 600;
 }
 
+header .brand:hover {
+  color: #ffb9c5;
+}
+
 header .brand img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 1.5em;
-}
-
-header .brand:hover {
-  color: #ffb9c5;
 }
 
 header nav {
@@ -276,7 +266,7 @@ header nav .menu--md {
     font-size: 14px;
   }
   header nav .menu--md li {
-    color: #252525;
+    color: #ffffff;
   }
   header nav .menu--md li:hover {
     color: #ffb9c5;
@@ -350,6 +340,10 @@ footer .mapsite .brand {
   color: #ffffff;
 }
 
+footer .mapsite .brand:hover {
+  color: #ffb9c5;
+}
+
 footer .mapsite .brand span {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,10 +355,6 @@ footer .mapsite .brand span {
 footer .mapsite .brand span img {
   height: 1.2em;
   width: auto;
-}
-
-footer .mapsite .brand:hover {
-  color: #ffb9c5;
 }
 
 footer .mapsite .mapsite__links {
@@ -386,7 +376,7 @@ footer .mapsite .mapsite__links .mapsite__list {
   font-size: 14px;
 }
 
-footer .mapsite li:hover {
+footer .mapsite .mapsite__links .mapsite__list li:hover {
   color: #adb3e9;
   -webkit-transform: translateX(3px);
           transform: translateX(3px);
@@ -438,7 +428,7 @@ footer .newsletter form label {
 footer .copyright {
   margin-top: 1em;
   padding: 1em;
-  border-top: 1px solid #f0f9ff;
+  border-top: 1px solid #ffffff;
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -464,7 +454,7 @@ footer .copyright ul {
   gap: 2em;
 }
 
-footer .copyright li:hover {
+footer .copyright ul li:hover {
   color: #adb3e9;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
@@ -662,7 +652,7 @@ footer .copyright li:hover {
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #e6f6ff;
+  background-color: #e1f3ff;
   padding-top: 50px;
   padding-bottom: 0px;
 }
@@ -674,7 +664,7 @@ footer .copyright li:hover {
 }
 
 .section-header h1 h1 span {
-  color: #e0ecff;
+  color: #e1f3ff;
 }
 
 .flex-container--light {
@@ -694,7 +684,7 @@ footer .copyright li:hover {
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #e6f6ff;
+  background-color: #e1f3ff;
 }
 
 .flex-container--light .card {
@@ -754,7 +744,7 @@ footer .copyright li:hover {
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #e6f6ff;
+    background-color: #e1f3ff;
   }
 }
 
@@ -776,7 +766,7 @@ footer .copyright li:hover {
     padding-bottom: 5%;
     padding-left: 13%;
     padding-right: 13%;
-    background-color: #e6f6ff;
+    background-color: #e1f3ff;
   }
   .flex-container--light .card .card__info h3 {
     font-size: 18px;
@@ -808,7 +798,7 @@ footer .copyright li:hover {
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
-    background-color: #e6f6ff;
+    background-color: #e1f3ff;
   }
 }
 
@@ -830,7 +820,7 @@ footer .copyright li:hover {
     padding-bottom: 5%;
     padding-left: 20%;
     padding-right: 20%;
-    background-color: #e6f6ff;
+    background-color: #e1f3ff;
   }
 }
 
@@ -852,7 +842,7 @@ footer .copyright li:hover {
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #e0ecff;
+  background-color: #e1f3ff;
 }
 
 .block-container--dark .row, .block-container--dark .row-reverse {
@@ -941,7 +931,7 @@ footer .copyright li:hover {
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #e0ecff;
+    background-color: #e1f3ff;
   }
 }
 
@@ -963,7 +953,7 @@ footer .copyright li:hover {
     padding-bottom: 5%;
     padding-left: 13%;
     padding-right: 13%;
-    background-color: #e0ecff;
+    background-color: #e1f3ff;
   }
   .block-container--dark .row .text-div, .block-container--dark .row-reverse .text-div {
     display: -webkit-box;
@@ -1013,7 +1003,7 @@ footer .copyright li:hover {
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
-    background-color: #e0ecff;
+    background-color: #e1f3ff;
   }
   .block-container--dark .row .text-div, .block-container--dark .row-reverse .text-div {
     display: -webkit-box;
@@ -1063,7 +1053,7 @@ footer .copyright li:hover {
     padding-bottom: 5%;
     padding-left: 20%;
     padding-right: 20%;
-    background-color: #e0ecff;
+    background-color: #e1f3ff;
   }
 }
 
@@ -1086,7 +1076,7 @@ footer .copyright li:hover {
   padding-left: 5%;
   padding-right: 5%;
   gap: 0em;
-  background-color: #f0f9ff;
+  background-color: #ffd9fa;
 }
 
 .flex-container--white .media-div {
@@ -1139,7 +1129,7 @@ footer .copyright li:hover {
     padding-left: 10%;
     padding-right: 10%;
     gap: 0em;
-    background-color: #f0f9ff;
+    background-color: #ffd9fa;
   }
 }
 
@@ -1162,7 +1152,7 @@ footer .copyright li:hover {
     padding-left: 13%;
     padding-right: 13%;
     gap: 0em;
-    background-color: #f0f9ff;
+    background-color: #ffd9fa;
   }
   .flex-container--white .text-div {
     padding: 1em;
@@ -1196,7 +1186,7 @@ footer .copyright li:hover {
     padding-left: 15%;
     padding-right: 15%;
     gap: 0em;
-    background-color: #f0f9ff;
+    background-color: #ffd9fa;
   }
   .flex-container--white .text-div {
     padding: 1em;
@@ -1229,7 +1219,7 @@ footer .copyright li:hover {
     padding-left: 20%;
     padding-right: 20%;
     gap: 0em;
-    background-color: #f0f9ff;
+    background-color: #ffd9fa;
   }
 }
 

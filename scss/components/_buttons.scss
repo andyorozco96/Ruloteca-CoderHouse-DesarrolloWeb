@@ -7,35 +7,23 @@
     font-weight: 600;
 
     &--main {
-        background-color: $clr-accent-600;
-        color: $clr-accent-000;
-    }
+        background-color: $clr-main;
+        color: $clr-white;
 
-    &--main:hover{
-        background-color: $clr-darken-600;
+        &:hover{
+            background-color: $clr-darken-main;
+        }
     }
-
 
     &--secondary {
-        background: $clr-accent-400;
-        color: $clr-accent-000;
+        background: $clr-secondary;
+        color: $clr-white;
+
+        &:hover{
+            background-color: $clr-darken-secondary;
+        }
     }
     
-    &--secondary:hover{
-        background-color: $clr-darken-400;
-    }
-
-    
-
-    &--dark{
-        background: $clr-accent-500;
-        color: $clr-accent-000;
-    }
-
-    &--light{
-        background: $clr-accent-100;
-        color: $clr-accent-500;
-    }
 }
 
 
@@ -48,10 +36,8 @@
 
     &:focus{
         outline: none !important;
-        border: 2px solid $clr-darken-600;
+        border: 2px solid $clr-darken-main;
     }
-
-
 }
 
 

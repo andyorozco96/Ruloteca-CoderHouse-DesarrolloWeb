@@ -15,10 +15,10 @@
             span{
                 text-align: center;
                 font-size: 1.3em;
-                color: $clr-accent-000;
+                color: $clr-white;
                 text-transform: uppercase;
                 font-weight: 300;
-                background: $clr-accent-600;
+                background: $clr-main;
                 padding: 5px 25px;
             }
         }
@@ -29,7 +29,7 @@
             align-items: center;
             width: 100%;
             padding: 1em 8%;
-            background-color: $clr-accent-000;
+            background-color: $clr-white;
 
             h1{
                 font-size: 1.3em;
@@ -37,14 +37,14 @@
                 text-transform: uppercase;
                 text-align: center;
                 margin: 1em 0;
-                border-bottom: 2px solid $clr-accent-400;
+                border-bottom: 2px solid $clr-secondary;
                 border-radius: 2px;
                 padding-bottom: 0.3em;
                 width: 80%;
 
 
                 span{
-                    color: $clr-accent-400;
+                    color: $clr-secondary;
                     font-weight: 600;
                 }
             }
@@ -52,7 +52,7 @@
             p {
                 font-size: 1em;
                 font-weight: 400;
-                color: $clr-accent-500;
+                color: $clr-dark;
                 line-height: 1.5em;
                 text-align: justify;
             }
@@ -75,10 +75,10 @@
 
             span{
                 font-size: 1.3em;
-                color: $clr-accent-000;
+                color: $clr-white;
                 text-transform: uppercase;
                 font-weight: 300;
-                background-color: $clr-accent-600;
+                background-color: $clr-main;
                 padding: 5px 25px;
                 text-align: center;
             }
@@ -90,7 +90,7 @@
             align-items: center;
             width: 100%;
             padding: 1em 8%;
-            background-color: $clr-accent-000;
+            background-color: $clr-white;
 
             h2{
                 font-size: 1.3em;
@@ -98,13 +98,13 @@
                 text-transform: uppercase;
                 text-align: center;
                 margin: 1em 0;
-                border-bottom: 2px solid $clr-accent-400;
+                border-bottom: 2px solid $clr-secondary;
                 border-radius: 2px;
                 padding-bottom: 0.3em;
 
 
                 span{
-                    color: $clr-accent-400;
+                    color: $clr-secondary;
                     font-weight: 600;
                 }
             }
@@ -112,7 +112,7 @@
             p {
                 font-size: 1em;
                 font-weight: 400;
-                color: $clr-accent-500;
+                color: $clr-dark;
                 line-height: 1.5em;
                 text-align: justify;
             }
@@ -133,10 +133,10 @@
 
             span{
                 font-size: 1.3em;
-                color: $clr-accent-000;
+                color: $clr-white;
                 text-transform: uppercase;
                 font-weight: 300;
-                background-color: $clr-accent-600;
+                background-color: $clr-main;
                 padding: 5px 25px;
                 text-align: center;
             }
@@ -149,7 +149,7 @@
             align-items: center;
             width: 100%;
             padding: 1em 8%;
-            background-color: $clr-accent-000;
+            background-color: $clr-white;
 
             h2{
                 font-size: 1.3em;
@@ -157,13 +157,13 @@
                 text-transform: uppercase;
                 text-align: center;
                 margin: 1em 0;
-                border-bottom: 2px solid $clr-accent-400;
+                border-bottom: 2px solid $clr-secondary;
                 border-radius: 2px;
                 padding-bottom: 0.3em;
 
 
                 span{
-                    color: $clr-accent-400;
+                    color: $clr-secondary;
                     font-weight: 600;
                 }
             }
@@ -171,7 +171,7 @@
             p {
                 font-size: 1em;
                 font-weight: 400;
-                color: $clr-accent-500;
+                color: $clr-dark;
                 line-height: 1.5em;
                 text-align: justify;
             }
@@ -193,10 +193,10 @@
             span{
                 transform: scale(0.9);
                 font-size: 1.3em;
-                color: $clr-accent-000;
+                color: $clr-white;
                 text-transform: uppercase;
                 font-weight: 300;
-                background-color: $clr-accent-600;
+                background-color: $clr-main;
                 padding: 5px 25px;
                 text-align: center;
             }
@@ -209,7 +209,7 @@
             align-items: center;
             width: 100%;
             padding: 1em 8%;
-            background-color: $clr-accent-000;
+            background-color: $clr-white;
 
             h2{
                 font-size: 1.3em;
@@ -217,13 +217,13 @@
                 text-transform: uppercase;
                 text-align: center;
                 margin: 1em 0;
-                border-bottom: 2px solid $clr-accent-400;
+                border-bottom: 2px solid $clr-secondary;
                 border-radius: 2px;
                 padding-bottom: 0.3em;
 
 
                 span{
-                    color: $clr-accent-400;
+                    color: $clr-secondary;
                     font-weight: 600;
                 }
             }
@@ -231,7 +231,7 @@
             p {
                 font-size: 1em;
                 font-weight: 400;
-                color: $clr-accent-500;
+                color: $clr-dark;
                 line-height: 1.5em;
                 text-align: justify;
             }
@@ -273,7 +273,7 @@
         padding-bottom: 0;
         padding-left: 5%;
         padding-right: 5%;;
-        background-color: $clr-accent-500;
+        background-color: $clr-dark;
         .about-section-1{
             display: flex;
             flex-flow: row nowrap;
@@ -340,7 +340,7 @@
         flex-direction: column;
         padding: 2em 10%;
         gap: 2em;
-        background-color: $clr-accent-500;
+        background-color: $clr-dark;
 
         .about-section-1{
             display: flex;

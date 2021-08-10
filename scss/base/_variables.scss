@@ -1,13 +1,12 @@
 // COLORES
 
-$clr-accent-000:#ffffff;  // BLANCO
-$clr-accent-100:#f0f9ff;  // GRIS   
-$clr-accent-200:#e0ecff;  // ROSA CLARO
-$clr-accent-300:#e6f6ff;  // CELESTE CLARO
-$clr-accent-400:#adb3e9;  // CELESTE RARO
-$clr-accent-500:#252525;  // NEGRO NO AL 100%
-$clr-accent-600: #ffb9c5;  // ROSA ACENTUADO
+$clr-white:#ffffff;  // BLANCO
+$clr-lightblue:#e1f3ff;  // CELESTE   
+$clr-lightpink:#ffd9fa;  // ROSA CLARO
+$clr-secondary:#adb3e9;  // CELESTE RARO
+$clr-dark:#252525;  // NEGRO NO AL 100%
+$clr-main: #ffb9c5;  // ROSA ACENTUADO
 
 // COLORES HOVER
-$clr-darken-400:#666fbd;
-$clr-darken-600: #d8697b;
+$clr-darken-secondary:#666fbd;
+$clr-darken-main: #d8697b;

@@ -115,39 +115,39 @@
 
 .section-header{
     @include block-container-sm;
-    background-color: $clr-accent-300;
+    background-color: $clr-lightblue;
     padding-top: 50px;
     padding-bottom: 0px;
 
 
     h1{
-        color: $clr-accent-500;
+        color: $clr-dark;
         text-align: center;
         font-size: 20px;
 
         h1 span{
-            color: $clr-accent-200;
+            color: $clr-lightblue;
         }
     }
 }
 
 .flex-container--light{
     @include flex-container-sm;
-    background-color: $clr-accent-300;
+    background-color: $clr-lightblue;
 
     .card{
         display: flex;
         flex-flow: column nowrap;
         width: 32.5%;
         padding: 1em;
-        background-color: $clr-accent-000;
+        background-color: $clr-white;
         gap: 1em;
         border-radius: 15px;
 
         .card__info{
             h3{
                 font-size: 14px;
-                color: $clr-accent-400;
+                color: $clr-secondary;
             }
 
             span{
@@ -177,12 +177,12 @@
 
     @media only screen and (min-width:642px){
         @include flex-container-m;
-        background-color: $clr-accent-300;
+        background-color: $clr-lightblue;
     }
 
     @media only screen and (min-width:768px){
         @include flex-container-lg;
-        background-color: $clr-accent-300;
+        background-color: $clr-lightblue;
         .card{
             .card__info{
                 h3{
@@ -203,12 +203,12 @@
     
     @media only screen and (min-width:992px){
         @include flex-container-xl;
-        background-color: $clr-accent-300;
+        background-color: $clr-lightblue;
     }
     
     @media only screen and (min-width:1200px){
         @include flex-container-xxl;
-        background-color: $clr-accent-300;
+        background-color: $clr-lightblue;
     }
     
 }
@@ -219,13 +219,13 @@
 /* SECCION "NAVEGACION */
 .block-container--dark{
     @include block-container-sm;
-    background-color: $clr-accent-200;
+    background-color: $clr-lightblue;
     
     .row{
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-        background-color: $clr-accent-000;
+        background-color: $clr-white;
         padding:1em 1.2em;
         gap: 1em;
 
@@ -234,7 +234,7 @@
             align-items: center;
             justify-content: center;
             flex: 60%;
-            background-color: $clr-accent-000;
+            background-color: $clr-white;
         }
 
         .text-div{
@@ -242,10 +242,10 @@
             justify-content: center;
             flex-direction: column;
             flex: 40%;
-            background-color: $clr-accent-000;
+            background-color: $clr-white;
 
             h2{
-                color: $clr-accent-400;
+                color: $clr-secondary;
                 font-size: 20px;
                 font-weight: 700;
                 text-align: left;
@@ -268,12 +268,12 @@
 
     @media only screen and (min-width:642px){
         @include block-container-m;
-        background-color: $clr-accent-200;
+        background-color: $clr-lightblue;
     }
 
     @media only screen and (min-width:768px){
         @include block-container-lg;
-        background-color: $clr-accent-200;
+        background-color: $clr-lightblue;
 
         .row{
 
@@ -282,10 +282,10 @@
                 justify-content: center;
                 flex-direction: column;
                 flex: 40%;
-                background-color: $clr-accent-000;
+                background-color: $clr-white;
     
                 h2{
-                    color: $clr-accent-400;
+                    color: $clr-secondary;
                     font-size: 24px;
                     font-weight: 700;
                     text-align: left;
@@ -304,7 +304,7 @@
 
     @media only screen and (min-width:992px){
         @include block-container-xl;
-        background-color: $clr-accent-200;
+        background-color: $clr-lightblue;
 
         .row{
 
@@ -313,10 +313,10 @@
             justify-content: center;
             flex-direction: column;
             flex: 40%;
-            background-color: $clr-accent-000;
+            background-color: $clr-white;
 
             h2{
-                color: $clr-accent-400;
+                color: $clr-secondary;
                 font-size: 24px;
                 font-weight: 700;
                 text-align: left;
@@ -334,7 +334,7 @@
 
     @media only screen and (min-width:1200px){
         @include block-container-xxl;
-        background-color: $clr-accent-200;
+        background-color: $clr-lightblue;
     }
 }
 
@@ -344,11 +344,11 @@
 .flex-container--white{
     @include flex-container-sm;
     gap: 0em;
-    background-color: $clr-accent-100;
+    background-color: $clr-lightpink;
 
     .media-div{
         flex: 40%;
-        background-color: $clr-accent-000;
+        background-color: $clr-white    ;
         padding: 1em;
 
         img{
@@ -359,12 +359,12 @@
 
     .text-div{
         flex: 60%;
-        background-color: $clr-accent-000;
+        background-color: $clr-white;
         padding: 1em;
         h3{
             font-size: 18px;
             margin-bottom: 0.2em;
-            color: $clr-accent-400;
+            color: $clr-secondary;
         }
 
         p{
@@ -375,13 +375,13 @@
     @media only screen and (min-width:642px){
         @include flex-container-m;
         gap: 0em;
-        background-color: $clr-accent-100;
+        background-color: $clr-lightpink;
     }
 
     @media only screen and (min-width:768px){
         @include flex-container-lg;
         gap: 0em;
-        background-color: $clr-accent-100;
+        background-color: $clr-lightpink;
 
         .text-div{
             padding: 1em;
@@ -401,7 +401,7 @@
     @media only screen and (min-width:992px){
         @include flex-container-xl;
         gap: 0em;
-        background-color: $clr-accent-100;
+        background-color: $clr-lightpink;
 
         .text-div{
             padding: 1em;
@@ -420,7 +420,7 @@
     @media only screen and (min-width:1200px){
         @include flex-container-xxl;
         gap: 0em;
-        background-color: $clr-accent-100;
+        background-color: $clr-lightpink;
     }
 
 }
