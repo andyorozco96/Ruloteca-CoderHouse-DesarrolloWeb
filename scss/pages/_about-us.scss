@@ -1,37 +1,412 @@
 .about-us{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: $clr-accent-400;
+    .about-section-1{
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0;
 
-    .about-us-section {
-        background: url(/repository/assets/img/contac-us/contact-us-bg.png) no-repeat center;
-        background-size: cover;
-        overflow: hidden;
-        padding: 100px 0;
+        .about-img-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(/repository/assets/img/about-us/about-us-01.jpg) no-repeat center;
+            background-size: cover;
+            height: 300px;
 
-        .container-about{
-            width: 55%;
-            float: right;
+            span{
+                text-align: center;
+                font-size: 1.3em;
+                color: $clr-accent-000;
+                text-transform: uppercase;
+                font-weight: 300;
+                background: $clr-accent-600;
+                padding: 5px 25px;
+            }
+        }
+
+        .container-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1em 8%;
             background-color: $clr-accent-000;
-            padding: 150px;
 
             h1{
-                margin-bottom: 30px;
-                font-size: 30px;
-                font-weight: 600;
+                font-size: 1.3em;
+                font-weight: 200;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 1em 0;
+                border-bottom: 2px solid $clr-accent-400;
+                border-radius: 2px;
+                padding-bottom: 0.3em;
+                width: 80%;
+
+
+                span{
+                    color: $clr-accent-400;
+                    font-weight: 600;
+                }
             }
 
-            .text-about {
-                font-size: 13px;
-                line-height: 30px;
+            p {
+                font-size: 1em;
+                font-weight: 400;
                 color: $clr-accent-500;
+                line-height: 1.5em;
                 text-align: justify;
+            }
+        }
+        
+    }
 
+    .about-section-2{
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0;
+
+        .about-img-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(/repository/assets/img/about-us/about-us-02.jpg) no-repeat center;
+            background-size: cover;
+            height: 300px;
+
+            span{
+                font-size: 1.3em;
+                color: $clr-accent-000;
+                text-transform: uppercase;
+                font-weight: 300;
+                background-color: $clr-accent-600;
+                padding: 5px 25px;
+                text-align: center;
+            }
+        }
+
+        .container-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1em 8%;
+            background-color: $clr-accent-000;
+
+            h2{
+                font-size: 1.3em;
+                font-weight: 200;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 1em 0;
+                border-bottom: 2px solid $clr-accent-400;
+                border-radius: 2px;
+                padding-bottom: 0.3em;
+
+
+                span{
+                    color: $clr-accent-400;
+                    font-weight: 600;
+                }
+            }
+
+            p {
+                font-size: 1em;
+                font-weight: 400;
+                color: $clr-accent-500;
+                line-height: 1.5em;
+                text-align: justify;
+            }
+        }
+    }
+    .about-section-3{
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0;
+
+        .about-img-3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(/repository/assets/img/about-us/about-us-03.jpeg) no-repeat center;
+            background-size: cover;
+            height: 300px;
+
+            span{
+                font-size: 1.3em;
+                color: $clr-accent-000;
+                text-transform: uppercase;
+                font-weight: 300;
+                background-color: $clr-accent-600;
+                padding: 5px 25px;
+                text-align: center;
+            }
+
+        }
+
+        .container-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1em 8%;
+            background-color: $clr-accent-000;
+
+            h2{
+                font-size: 1.3em;
+                font-weight: 200;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 1em 0;
+                border-bottom: 2px solid $clr-accent-400;
+                border-radius: 2px;
+                padding-bottom: 0.3em;
+
+
+                span{
+                    color: $clr-accent-400;
+                    font-weight: 600;
+                }
+            }
+
+            p {
+                font-size: 1em;
+                font-weight: 400;
+                color: $clr-accent-500;
+                line-height: 1.5em;
+                text-align: justify;
+            }
+        }
+    }
+    .about-section-4{
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 0;
+
+        .about-img-4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(/repository/assets/img/about-us/about-us-04.jpeg) no-repeat center;
+            background-size: cover;
+            height: 300px;
+
+            span{
+                transform: scale(0.9);
+                font-size: 1.3em;
+                color: $clr-accent-000;
+                text-transform: uppercase;
+                font-weight: 300;
+                background-color: $clr-accent-600;
+                padding: 5px 25px;
+                text-align: center;
+            }
+
+        }
+
+        .container-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1em 8%;
+            background-color: $clr-accent-000;
+
+            h2{
+                font-size: 1.3em;
+                font-weight: 200;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 1em 0;
+                border-bottom: 2px solid $clr-accent-400;
+                border-radius: 2px;
+                padding-bottom: 0.3em;
+
+
+                span{
+                    color: $clr-accent-400;
+                    font-weight: 600;
+                }
+            }
+
+            p {
+                font-size: 1em;
+                font-weight: 400;
+                color: $clr-accent-500;
+                line-height: 1.5em;
+                text-align: justify;
+            }
+        }
+    }
+
+    @media only screen and (min-width:641px){
+        .about-section-1{
+            padding: 0;
+            .container-text{
+                padding: 1em 15%;
+            }
+        }
+        .about-section-2{
+            padding: 0;
+            .container-text{
+                padding: 1em 15%;
+            }
+        }
+        .about-section-3{
+            padding: 0;
+            .container-text{
+                padding: 1em 15%;
+            }
+        }
+        .about-section-4{
+            padding: 0;
+            .container-text{
+                padding: 1em 15%;
+            }
+        }
+    }
+
+    @media only screen and (min-width:768px){
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding-top: 4.5%;
+        padding-bottom: 0;
+        padding-left: 5%;
+        padding-right: 5%;;
+        background-color: $clr-accent-500;
+        .about-section-1{
+            display: flex;
+            flex-flow: row nowrap;
+            padding: 0;
+
+            .about-img-1{
+                width: 50%;
+                height: auto;
+            }
+            .container-text{
+                width: 50%;
+                padding: 1em 7%;
+                padding-bottom: 4em;
+            }
+        }
+        .about-section-2{
+            display: flex;
+            flex-flow: row-reverse nowrap;
+            padding: 0;
+
+            .about-img-2{
+                width: 50%;
+                height: auto;
+            }
+            .container-text{
+                width: 50%;
+                padding: 1em 7%;
+                padding-bottom: 4em;
+            }
+        }
+        .about-section-3{
+            display: flex;
+            flex-flow: row nowrap;
+            padding: 0;
+
+            .about-img-3{
+                width: 50%;
+                height: auto;
+            }
+            .container-text{
+                width: 50%;
+                padding: 1em 7%;
+                padding-bottom: 4em;
+            }
+        }
+        .about-section-4{
+            display: flex;
+            flex-flow: row-reverse nowrap;
+            padding: 0;
+
+            .about-img-4{
+                width: 50%;
+                height: auto;
+            }
+            .container-text{
+                width: 50%;
+                padding: 1em 7%;
+                padding-bottom: 4em;
+            }
+        }
+    }
+    @media only screen and (min-width:992px){
+        display: flex;
+        flex-direction: column;
+        padding: 2em 10%;
+        gap: 2em;
+        background-color: $clr-accent-500;
+
+        .about-section-1{
+            display: flex;
+            flex-flow: row nowrap;
+            padding: 0;
+
+            .about-img-1{
+                width: 50%;
+                height: auto;
+            }
+            .container-text{
+                width: 50%;
+                padding: 5%;
+                padding-top: 2em;
+                padding-bottom: 4em;
+            }
+        }
+        .about-section-2{
+            display: flex;
+            flex-flow: row-reverse nowrap;
+            padding: 0;
+
+            .about-img-2{
+                width: 50%;
+                height: auto;
+            }
+            .container-text{
+                width: 50%;
+                padding: 5%;
+                padding-top: 2em;
+                padding-bottom: 4em;
+            }
+        }
+        .about-section-3{
+            display: flex;
+            flex-flow: row nowrap;
+            padding: 0;
+
+            .about-img-3{
+                width: 50%;
+                height: auto;
+            }
+            .container-text{
+                width: 50%;
+                padding: 5%;
+                padding-top: 2em;
+                padding-bottom: 4em;
+            }
+        }
+        .about-section-4{
+            display: flex;
+            flex-flow: row-reverse nowrap;
+            padding: 0;
+
+            .about-img-4{
+                width: 50%;
+                height: auto;
+            }
+            .container-text{
+                width: 50%;
+                padding: 5%;
+                padding-top: 2em;
+                padding-bottom: 4em;
             }
         }
     }
 
 }
+
