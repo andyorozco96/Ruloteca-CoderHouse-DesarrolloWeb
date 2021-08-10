@@ -1,0 +1,165 @@
+main{
+    .banner-section-products{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../assets/img/products/banner-section-products.jpg) no-repeat center;
+        background-size: cover;
+        width: 100vw;
+        height: 60vh;
+        text-align: center;
+    
+        span {
+            font-size: 2em;
+            color: $clr-white;
+            text-transform: uppercase;
+            font-weight: 300;
+            background: $clr-secondary;
+            padding: 5px 25px;
+        }
+    
+    }
+
+    .featured-categories{
+        display: flex;
+        flex-flow: column nowrap;
+
+        .heading{
+            h1{
+
+                text-align: center;
+                margin: 0;
+                font-size: 2em;
+                margin: 2em 0;
+                padding: 0;
+            }
+        }
+
+        .flex-container-products{
+            @include flex-container-sm;
+            padding-bottom: 0;
+            padding-top: 0;
+
+            .img-container{
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                width: 32.5%;
+                height:65vh;
+
+                span {
+                    font-size: 1.3em;
+                    color: $clr-white;
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    background: $clr-darken-main;
+                    padding: 5px 25px;
+                    transform: rotateZ(-90deg);
+                    text-align: center;
+                }
+
+                &-01{
+                    background: url(../../assets/img/products/categories-panuelo-img.png) no-repeat center;
+                    background-size: cover;
+
+                    
+                }
+                &-02{
+                    background: url(../../assets/img/products/categories-vinchas-img.png) no-repeat center;
+                    background-size: cover;
+                }
+                &-03{
+                    background: url(../../assets/img/products/categories-cofia-img.png) no-repeat center;
+                    background-size: cover;
+                }
+            }
+        }           
+    }
+
+    .all-products{
+
+        .products-section{
+            .heading{
+                padding: 0 20%;
+                text-align: center;
+                
+                h2{
+                    font-size: 1.2em;
+                    text-align: center;
+                    margin-bottom: 3em;
+                    margin-top: 3em;
+                    border-bottom: 3px solid $clr-secondary;
+                    border-radius: 2px;
+                    padding-bottom: 0.4em;
+                    text-transform: uppercase;   
+                }
+            }
+
+            .flex-container-products{
+
+                .block-container-product{
+                    
+   
+                    .img-container{
+                        height: 50vh;
+
+                        &-001{
+                            background: url(../assets/img/products/panuelo-img-1.png) no-repeat center;
+                            background-size: cover;        
+                        }
+                        &-002{
+                            background: url(../assets/img/products/panuelo-img-2.png) no-repeat center;
+                            background-size: cover;        
+                        }
+                        &-003{
+                            background: url(../assets/img/products/panuelo-img-3.png) no-repeat center;
+                            background-size: cover;        
+                        }
+                        &-004{
+                            background: url(../assets/img/products/cofia-img-1.png) no-repeat center;
+                            background-size: cover;        
+                        }
+                        &-005{
+                            background: url(../assets/img/products/cofia-img-2.png) no-repeat center;
+                            background-size: cover;        
+                        }
+                        &-006{
+                            background: url(../assets/img/products/cofia-img-3.png) no-repeat center;
+                            background-size: cover;        
+                        }
+                        &-007{
+                            background: url(../assets/img/products/vincha-img-1.png) no-repeat center;
+                            background-size: cover;        
+                        }
+                        &-008{
+                            background: url(../assets/img/products/vincha-img-2.png) no-repeat center;
+                            background-size: cover;        
+                        }
+
+
+                    }
+
+                    .text-container{
+                        text-align: center;
+                        h3{
+                            font-size: 1em;
+                            margin-top: 1.2em;
+                            margin-bottom: 0.5em;
+                            font-weight: 200;
+                        }
+
+                        p{
+                            font-size: 1.2em;
+                            font-weight: 600;
+                            margin-bottom: 0.5em;
+                        }
+
+                        .btn{
+                            margin-bottom: 5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
