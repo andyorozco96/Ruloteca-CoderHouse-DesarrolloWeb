@@ -705,7 +705,7 @@ footer .copyright li:hover {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  width: 33%;
+  width: 32.5%;
   padding: 1em;
   background-color: #ffffff;
   gap: 1em;
