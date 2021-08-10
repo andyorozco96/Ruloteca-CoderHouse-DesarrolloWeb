@@ -2150,17 +2150,17 @@ main .featured-categories .flex-container-products .img-container span {
 }
 
 main .featured-categories .flex-container-products .img-container-01 {
-  background: url(../../assets/img/products/categories-panuelo-img.png) no-repeat center;
+  background: url(../assets/img/products/categories-panuelo-img.png) no-repeat center;
   background-size: cover;
 }
 
 main .featured-categories .flex-container-products .img-container-02 {
-  background: url(../../assets/img/products/categories-vinchas-img.png) no-repeat center;
+  background: url(../assets/img/products/categories-vinchas-img.png) no-repeat center;
   background-size: cover;
 }
 
 main .featured-categories .flex-container-products .img-container-03 {
-  background: url(../../assets/img/products/categories-cofia-img.png) no-repeat center;
+  background: url(../assets/img/products/categories-cofia-img.png) no-repeat center;
   background-size: cover;
 }
 
