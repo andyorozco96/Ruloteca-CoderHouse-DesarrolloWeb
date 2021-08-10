@@ -1380,7 +1380,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../../assets/img/about-us/about-us-01.jpg) no-repeat center;
+  background: url(../assets/img/about-us/about-us-01.jpg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
@@ -1457,7 +1457,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(/assets/img/about-us/about-us-02.jpg) no-repeat center;
+  background: url(../../assets/img/about-us/about-us-02.jpg) no-repeat center;
   background-size: cover;
   height: 300px;
 }
@@ -1892,7 +1892,7 @@ footer .copyright li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../../assets/img/gallery/banner-img-gallery-01.jpg) no-repeat center;
+  background: url(../assets/img/gallery/banner-img-gallery-01.jpg) no-repeat center;
   background-size: cover;
   width: 100vw;
   height: 80vh;
