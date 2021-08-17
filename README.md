@@ -8,5 +8,5 @@ con un emprendimiento local emergente, para tener contenido REAL para maquetar y
 
 <h3>Datos del autor</h3
 
-Mi nombre es Andrés Orozco, actualmente tengo 25 años y me encuentro incursionando en el Desarrollo Web después de haber esthttps://github.com/andyorozco96/Ruloteca-CoderHouseudiado 4 años de Diseño Gráfico.
+Mi nombre es Andrés Orozco, actualmente tengo 25 años y me encuentro incursionando en el Desarrollo Web después de haber estudiado 4 años de Diseño Gráfico.
 Tengo como objetivo poder dedicarme al desarrollo de sitios web aprovechando mi pasión por el mundo del desarrollo y la computación
