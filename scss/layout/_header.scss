@@ -29,6 +29,7 @@ header{
         align-items: center;
 
 /* MI PRIMER MENU HAMBURGUESA HECHO CON ANNIMACIONES*/
+
         .menu--sm{
 
             label{
@@ -57,7 +58,7 @@ header{
                     right: 0;
                     top:50px;
                     background-color: $clr-dark;
-                    transition: all 500ms ease;
+                    transition: all 1s ease;
                     opacity: 0;
                     visibility: hidden;
 
@@ -66,7 +67,7 @@ header{
                         max-width: 250px;
                         height: 400px;
                         position: relative;
-                        transition: all 500ms ease;
+                        transition: all 1s ease;
                         background-color: $clr-dark;
 
                         ul li{
@@ -74,14 +75,14 @@ header{
                             padding: 1em;
                             color: rgb(255, 255, 255);
                             border-left: 5px solid transparent;
-                            transition: all 400ms ease;
+                            transition: all 1s ease;
 
                             &:hover{
                                 display: block;
                                 padding: 1em;
                                 color: rgb(255, 255, 255);
                                 border-right: 5px solid $clr-main;
-                                transition: all 400ms ease;
+                                transition: all .5s ease;
                                 background-color: $clr-secondary;
                                 font-weight: 600;
                                 }
