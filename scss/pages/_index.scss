@@ -370,7 +370,7 @@
 .flex-container--white{
     @include flex-container-sm;
     gap: 0em;
-    background-color: $clr-lightpink;
+    background-color: $clr-main;
 
     .media-div{
         flex: 40%;
@@ -401,13 +401,13 @@
     @media only screen and (min-width:642px){
         @include flex-container-m;
         gap: 0em;
-        background-color: $clr-lightpink;
+        background-color: $clr-main;
     }
 
     @media only screen and (min-width:768px){
         @include flex-container-lg;
         gap: 0em;
-        background-color: $clr-lightpink;
+        background-color: $clr-main;
 
         .text-div{
             padding: 1em;
@@ -427,7 +427,7 @@
     @media only screen and (min-width:992px){
         @include flex-container-xl;
         gap: 0em;
-        background-color: $clr-lightpink;
+        background-color: $clr-main;
 
         .text-div{
             padding: 1em;
@@ -446,7 +446,7 @@
     @media only screen and (min-width:1200px){
         @include flex-container-xxl;
         gap: 0em;
-        background-color: $clr-lightpink;
+        background-color: $clr-main;
     }
 
 }
