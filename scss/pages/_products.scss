@@ -45,6 +45,7 @@ main{
                 align-items: center;
                 justify-content:center;
                 width: 32.5%;
+                margin-bottom: 3em;
                 height:65vh;
 
                 span {
@@ -86,8 +87,8 @@ main{
                 h2{
                     font-size: 1.2em;
                     text-align: center;
-                    margin-bottom: 3em;
-                    margin-top: 3em;
+                    margin-bottom: 0.5em;
+                    margin-top: 0.5em;
                     border-bottom: 3px solid $clr-secondary;
                     border-radius: 2px;
                     padding-bottom: 0.4em;
@@ -112,39 +113,39 @@ main{
                 .block-container-product{
                     
                     .img-container{
-                        height: 50vh;
+                        height: 30vh;
 
                         &-001{
                             background: url(../assets/img/products/panuelo-img-1.png) no-repeat center;
-                            background-size: cover;        
+                            background-size: contain;        
                         }
                         &-002{
                             background: url(../assets/img/products/panuelo-img-2.png) no-repeat center;
-                            background-size: cover;        
+                            background-size: contain;        
                         }
                         &-003{
                             background: url(../assets/img/products/panuelo-img-3.png) no-repeat center;
-                            background-size: cover;        
+                            background-size: contain;        
                         }
                         &-004{
                             background: url(../assets/img/products/cofia-img-1.png) no-repeat center;
-                            background-size: cover;        
+                            background-size: contain;        
                         }
                         &-005{
                             background: url(../assets/img/products/cofia-img-2.png) no-repeat center;
-                            background-size: cover;        
+                            background-size: contain;        
                         }
                         &-006{
                             background: url(../assets/img/products/cofia-img-3.png) no-repeat center;
-                            background-size: cover;        
+                            background-size: contain;        
                         }
                         &-007{
                             background: url(../assets/img/products/vincha-img-1.png) no-repeat center;
-                            background-size: cover;        
+                            background-size: contain;        
                         }
                         &-008{
                             background: url(../assets/img/products/vincha-img-2.png) no-repeat center;
-                            background-size: cover;        
+                            background-size: contain;        
                         }
 
 
