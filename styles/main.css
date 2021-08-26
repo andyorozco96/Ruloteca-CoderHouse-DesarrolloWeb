@@ -308,9 +308,7 @@ footer {
       grid-template-columns: 25% 25% 50%;
   -ms-grid-rows: 30% 50% 25%;
       grid-template-rows: 30% 50% 25%;
-      grid-template-areas: "mapsite mapsite newsletter"
- "mapsite mapsite newsletter"
- "links3 links3 links3";
+      grid-template-areas: "mapsite mapsite newsletter" "mapsite mapsite newsletter" "links3 links3 links3";
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
